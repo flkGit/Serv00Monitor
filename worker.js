@@ -1111,7 +1111,7 @@ function getHtmlContent() {
                     statusIcon +
                   '</i>' +
                   '<span class="' + (cronResult.success ? 'success' : cronResult.loginStatus ? 'logined' : 'failed') + '">' +
-                    (cronResult.success ? '保活成功' : cronResult.loginStatus ? '登录成功' : '保活失败') +
+                    (cronResult.success ? '成功' : cronResult.loginStatus ? '已登录' : '失败') +
                   '</span>' +
                 '</div>';
               }).join('') +
