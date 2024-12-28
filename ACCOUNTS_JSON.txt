@@ -4,6 +4,8 @@
       "username": "user1",
       "password": "password1",
       "type": "ct8",
+      "email": "user1@example.com",
+      "servername": "服务名称",
       "cronCommands": [
         "/usr/home/serv00name/domains",
         "你的脚本"
@@ -14,6 +16,8 @@
       "password": "password2",
       "panelnum": "2",
       "type": "serv00",
+      "email": "user1@example.com",
+      "servername": "服务名称",
       "cronCommands": [
         "/usr/home/serv00name"
       ]
@@ -22,6 +26,8 @@
       "username": "user3",
       "password": "password3",
       "type": "ct8",
+      "email": "user1@example.com",
+      "servername": "服务名称",
       "cronCommands": [
         "/usr/home/serv00name",
         "你的脚本",

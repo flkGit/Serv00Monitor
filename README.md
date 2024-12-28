@@ -1,8 +1,8 @@
 # Serv00 Monitor
 
-一个优雅的 Serv00/CT8 面板监控工具，基于 Cloudflare Workers 构建。
+一个优雅的 Serv00/CT8 面板监控工具，基于 Cloudflare Workers 构建。在此基础上增加了一些个性化定制
 
-![Serv00 Monitor](Serv00Monitor.jpg)
+![Serv00 Monitor](Serv00Monitor.png)
 
 ## 功能特点
 
@@ -19,8 +19,8 @@
 
 1. 在 Cloudflare Workers 创建新的 Worker
 2. 复制 `worker.js` 内容到 Worker 编辑器
-3. 创建一个名为`CRON_RESULTS`的KV变量
-4. 创建以下变量和机密（txt文件模板）:
+3. 创建一个名为`CRON_RESULTS`的 KV 变量
+4. 创建以下变量和机密（txt 文件模板）:
    - `PASSWORD`: 前端登陆密码
    - `ACCOUNTS_JSON`: 存储账号信息
    - `TELEGRAM_JSON`: 存储 Telegram 配置
